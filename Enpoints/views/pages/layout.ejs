@@ -1,13 +1,91 @@
-<!-- barrra de navegacion con: home, about, contact 
+<!-- barrra de navegacion con: public, about, contact 
 
 
 barra menu:
 <header>
 
-home, about, contact 
+public, about, contact 
 </header>
 
 
 <footer>
 </footer>
 -->
+<head>
+    <!-- Datos de la pagina -->
+    <title>Layout</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Layout">     
+        <meta name="author" content="Ian Perez 16212065">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+        <script src="/public/js/jquery.min.js"></script>
+        <script src="/public/js/popper.min.js"></script>
+        <script src="/public/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Programación Web</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">public</a></li>
+
+
+            <!-- Inicia lista desplegable de navegacion -->
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etapa 1
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">ServerHTTP</a></li>
+                <li><a href="#">HolaMundo</a></li>
+                <li><a href="#">*Enpoints*</a></li>
+              </ul>
+            </li>
+            <!-- Termina lista desplegable de navegacion -->
+
+
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etapa 2
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Proximamente</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Etapa 3
+                <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Proximamente</a></li>
+                </ul>
+              </li>
+
+
+
+          </ul>
+        </div>
+      </nav>
+    <!-- NavBar End -->
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Carlos Ian Perez Vanoye AKA Finixian
+    <a href="nepe"> algo</a>
+  </div>
+  <!-- Copyright End -->
+
+</footer>
+<!-- Footer End -->
+
+</body>
