@@ -1,0 +1,15 @@
+{
+  "name": "serverhttp",
+  "version": "1.0.0",
+  "description": "Levantar un servidor HTTP en Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Ian \"Finixian\" Perez",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,39 @@
+Iniciar proyecto nuevo:
+npm init   // datos
+
+
+Modulos necesarios minimos:
+
+npm install --save nodemon     //No tirar manualmente el server
+
+/*
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+
+*/
+
+npm install --save express    //Requiere
+
+
+
+
+vistas:
+
+
+npm install --save ejs
+
+npm install --save express-ejs-layouts
+
+npm install --save body-parser
+
+
+
+
+
+
+Levantar el servidor:
+npm start
+
