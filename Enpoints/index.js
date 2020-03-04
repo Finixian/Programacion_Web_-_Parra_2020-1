@@ -18,6 +18,15 @@ app.use(express.static(__dirname+'/public'));
 
 
 
+app.get('/',(req,res)=>{
+    res.render('pages/home');
+})
+
+app.get('/about',(req,res)=>{
+    res.render('pages/about')
+})
+
+
 
 /* !!!ESTO SIEMPRE VA ABAJO!!! Asignar el Puerto a usar y el mensaje que se realizo y levanto el servidor correctamente */
 app.listen(port,()=>{
