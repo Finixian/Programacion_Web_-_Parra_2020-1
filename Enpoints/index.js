@@ -17,13 +17,13 @@ app.use(express.static(__dirname+'/public'));
 
 
 
-
+var edad="17";
 app.get('/',(req,res)=>{
-    res.render('pages/home');
+    res.render('pages/home',{extra: "envio de variable a la hora de mandar a llamar la pagina en home",edad: edad});
 })
 
 app.get('/about',(req,res)=>{
-    res.render('pages/about')
+    res.render('pages/about',{extra: "envio de variable a la hora de mandar a llamar la pagina en about",edad})
 })
 
 
