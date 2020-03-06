@@ -11,7 +11,7 @@ public, about, contact
 <footer>
 </footer>
 -->
-<body>
+<body class="textbody">
 <header>
     <!-- Datos de la pagina -->
     <title>Layout</title>
@@ -42,6 +42,7 @@ public, about, contact
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
             <li class="active"><a href="/about">About</a></li>
+            <li class="active"><a href="/contact">Contact</a></li>
 
 
             <!-- Inicia lista desplegable de navegacion -->
@@ -81,16 +82,17 @@ public, about, contact
     <!-- NavBar End -->
 </header>
 
-
-<%- defineContent('hero' )%>
+<!-- El body de los demas -->
+<%- defineContent('hero')%>
 
 <main>
-<div class="container textbody">
+<div class="container ">
   <%- body %>
 </div>
 
 </main>
 
+<!-- El body de los demas hasta aqui -->
 
 
 

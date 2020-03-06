@@ -26,7 +26,17 @@ app.get('/about',(req,res)=>{
     res.render('pages/about',{extra: "envio de variable a la hora de mandar a llamar la pagina en about",edad})
 })
 
+app.get('/contact',(req,res)=>{
+    
+    res.render('pages/contact',{extra: "envio de variable a la hora de mandar a llamar la pagina en contact",edad})
+})
 
+app.post('/contact',(req,res)=>{
+    console.log(res.body.name);
+    res.render('pages/home',{extra: "envio de variable a la hora de mandar a llamar la pagina en respuesta a contact",edad,name})
+    
+    
+})
 
 /* !!!ESTO SIEMPRE VA ABAJO!!! Asignar el Puerto a usar y el mensaje que se realizo y levanto el servidor correctamente */
 app.listen(port,()=>{
