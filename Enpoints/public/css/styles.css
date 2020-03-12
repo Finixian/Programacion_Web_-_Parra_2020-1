@@ -9,8 +9,19 @@ body {
     margin: 0;
   }
 
+  .barras {
+    border: 2px magenta;
+  }
+
+  .jumbotron
+  {
+    background-color: black;
+    color: black;
+  }
+
   .textbody{
-    color: gold;background-color: black;
+    color: gold;
+    background-color: black;
     width: 100%;
     height: 100%;
   }
